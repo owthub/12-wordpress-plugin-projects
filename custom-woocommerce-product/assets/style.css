@@ -1,0 +1,53 @@
+.wcp_custom_plugin {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wcp_custom_plugin .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+.wcp_custom_plugin h2 {
+    margin-bottom: 20px;
+}
+.wcp_custom_plugin .form-group {
+    margin-bottom: 15px;
+}
+.wcp_custom_plugin .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.wcp_custom_plugin .form-group input[type="text"], 
+.wcp_custom_plugin .form-group input[type="number"], 
+.wcp_custom_plugin .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.wcp_custom_plugin .form-group input[type="file"] {
+    padding: 0;
+}
+.wcp_custom_plugin .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+.wcp_custom_plugin .form-group button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.wcp_custom_plugin .form-group button:hover {
+    background-color: #0056b3;
+}
